@@ -24,7 +24,7 @@ FEATURE_DIM = 2048            # 最终特征维度
 DEVICE = "cpu"               # 可改为 "cuda"
 # 分页大小
 PAGE_SIZE = 10
-ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkNDIwNzdiNi1iZjI5LTRlMzgtYWY4OS1mZmZlNjgyMDk1NTIiLCJ1c2VyVHlwZSI6IkFETUlOIiwiaWF0IjoxNzgwMzkxMDAwLCJleHAiOjE3ODAzOTgyMDB9.kSY8umwJ7oKUyj-aSw90WF4HWNdCwtQ87E-YDe_8Apk"
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN", "")
 HEADERS = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
