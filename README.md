@@ -1,6 +1,17 @@
 # 文物以图搜图检索
 ## 简介
 基于**ResNet50图像特征提取 + FAISS向量相似度检索 + SQLite存储**实现的文物以图搜图后端服务，通过上传文物图片，提取图像特征后在文物库中匹配余弦相似度最高的同类文物，提供FastAPI接口对外调用。
+## 项目预览
+
+<div align="center">
+  <img src="assets/swagger-ui.png" width="80%" alt="Swagger接口文档"/>
+  <p><em>FastAPI自动生成的Swagger接口文档</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/search-result.png" width="80%" alt="检索结果示例"/>
+  <p><em>以图搜图检索结果示例</em></p>
+</div>
 
 ## 技术栈
 - 后端框架：FastAPI
