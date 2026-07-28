@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/search-result.png" width="80%" alt="检索结果示例"/>
+  <img src="assets/search-result.jpg" width="80%" alt="检索结果示例"/>
   <p><em>以图搜图检索结果示例</em></p>
 </div>
 
